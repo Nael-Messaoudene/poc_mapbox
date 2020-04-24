@@ -1,1 +1,6 @@
-mapbox_polo
+# Installation
+
+
+```sh
+$ pod install
+```

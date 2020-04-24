@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F2F31542449B3AE00EB5695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F31532449B3AE00EB5695 /* AppDelegate.swift */; };
+		0F2F31562449B3AE00EB5695 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F31552449B3AE00EB5695 /* SceneDelegate.swift */; };
+		0F2F31582449B3AE00EB5695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F31572449B3AE00EB5695 /* ViewController.swift */; };
+		0F2F315B2449B3AF00EB5695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2F31592449B3AF00EB5695 /* Main.storyboard */; };
+		0F2F315D2449B3B000EB5695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2F315C2449B3B000EB5695 /* Assets.xcassets */; };
+		0F2F31602449B3B000EB5695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2F315E2449B3B000EB5695 /* LaunchScreen.storyboard */; };
+		0F2F316B2449B3B000EB5695 /* mapbox_poloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F316A2449B3B000EB5695 /* mapbox_poloTests.swift */; };
+		0F2F31762449B3B000EB5695 /* mapbox_poloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F31752449B3B000EB5695 /* mapbox_poloUITests.swift */; };
+		0F57D0EA2449BA5400B677E8 /* Pods_mapbox_polo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB5633091CBBD36C2BF55C4 /* Pods_mapbox_polo.framework */; };
+		0F57D0EB2449BA5400B677E8 /* Pods_mapbox_polo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB5633091CBBD36C2BF55C4 /* Pods_mapbox_polo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A4CFBD66E222F9903DA3918 /* Pods_mapbox_polo_mapbox_poloUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161773933D24EEDD50DBD154 /* Pods_mapbox_polo_mapbox_poloUITests.framework */; };
+		CB7D54AAABAAD6EE3ED70607 /* Pods_mapbox_poloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56153A60AD7E9268C742B9E /* Pods_mapbox_poloTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F2F31672449B3B000EB5695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F2F31482449B3AE00EB5695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F2F314F2449B3AE00EB5695;
+			remoteInfo = mapbox_polo;
+		};
+		0F2F31722449B3B000EB5695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F2F31482449B3AE00EB5695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F2F314F2449B3AE00EB5695;
+			remoteInfo = mapbox_polo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F57D0EC2449BA5500B677E8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0F57D0EB2449BA5400B677E8 /* Pods_mapbox_polo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F2F31502449B3AE00EB5695 /* mapbox_polo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapbox_polo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2F31532449B3AE00EB5695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F2F31552449B3AE00EB5695 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0F2F31572449B3AE00EB5695 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F2F315A2449B3AF00EB5695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F2F315C2449B3B000EB5695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F2F315F2449B3B000EB5695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F2F31612449B3B000EB5695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2F31662449B3B000EB5695 /* mapbox_poloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapbox_poloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2F316A2449B3B000EB5695 /* mapbox_poloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapbox_poloTests.swift; sourceTree = "<group>"; };
+		0F2F316C2449B3B000EB5695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2F31712449B3B000EB5695 /* mapbox_poloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapbox_poloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2F31752449B3B000EB5695 /* mapbox_poloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapbox_poloUITests.swift; sourceTree = "<group>"; };
+		0F2F31772449B3B000EB5695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E4E96509CE0F2293B2C33D /* Pods-mapbox_polo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapbox_polo.debug.xcconfig"; path = "Target Support Files/Pods-mapbox_polo/Pods-mapbox_polo.debug.xcconfig"; sourceTree = "<group>"; };
+		161773933D24EEDD50DBD154 /* Pods_mapbox_polo_mapbox_poloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapbox_polo_mapbox_poloUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4470E4C8FEB6E9A627D573AB /* Pods-mapbox_poloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapbox_poloTests.release.xcconfig"; path = "Target Support Files/Pods-mapbox_poloTests/Pods-mapbox_poloTests.release.xcconfig"; sourceTree = "<group>"; };
+		514BEB5754DE7F4ACBF41AA4 /* Pods-mapbox_polo-mapbox_poloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapbox_polo-mapbox_poloUITests.debug.xcconfig"; path = "Target Support Files/Pods-mapbox_polo-mapbox_poloUITests/Pods-mapbox_polo-mapbox_poloUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6745295030FAABCC6E1A36D1 /* Pods-mapbox_poloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapbox_poloTests.debug.xcconfig"; path = "Target Support Files/Pods-mapbox_poloTests/Pods-mapbox_poloTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AB738AA183EFB183200D941 /* Pods-mapbox_polo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapbox_polo.release.xcconfig"; path = "Target Support Files/Pods-mapbox_polo/Pods-mapbox_polo.release.xcconfig"; sourceTree = "<group>"; };
+		6EB5633091CBBD36C2BF55C4 /* Pods_mapbox_polo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapbox_polo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56153A60AD7E9268C742B9E /* Pods_mapbox_poloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapbox_poloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1B7CE3DA43EB900E016598 /* Pods-mapbox_polo-mapbox_poloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapbox_polo-mapbox_poloUITests.release.xcconfig"; path = "Target Support Files/Pods-mapbox_polo-mapbox_poloUITests/Pods-mapbox_polo-mapbox_poloUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F2F314D2449B3AE00EB5695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F57D0EA2449BA5400B677E8 /* Pods_mapbox_polo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2F31632449B3B000EB5695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7D54AAABAAD6EE3ED70607 /* Pods_mapbox_poloTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2F316E2449B3B000EB5695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4CFBD66E222F9903DA3918 /* Pods_mapbox_polo_mapbox_poloUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F2F31472449B3AE00EB5695 = {
+			isa = PBXGroup;
+			children = (
+				0F2F31522449B3AE00EB5695 /* mapbox_polo */,
+				0F2F31692449B3B000EB5695 /* mapbox_poloTests */,
+				0F2F31742449B3B000EB5695 /* mapbox_poloUITests */,
+				0F2F31512449B3AE00EB5695 /* Products */,
+				FDD4815299BD1AD150664A33 /* Pods */,
+				EB81B25A46B7DA8C56A2DD1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0F2F31512449B3AE00EB5695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F2F31502449B3AE00EB5695 /* mapbox_polo.app */,
+				0F2F31662449B3B000EB5695 /* mapbox_poloTests.xctest */,
+				0F2F31712449B3B000EB5695 /* mapbox_poloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F2F31522449B3AE00EB5695 /* mapbox_polo */ = {
+			isa = PBXGroup;
+			children = (
+				0F2F31532449B3AE00EB5695 /* AppDelegate.swift */,
+				0F2F31552449B3AE00EB5695 /* SceneDelegate.swift */,
+				0F2F31572449B3AE00EB5695 /* ViewController.swift */,
+				0F2F31592449B3AF00EB5695 /* Main.storyboard */,
+				0F2F315C2449B3B000EB5695 /* Assets.xcassets */,
+				0F2F315E2449B3B000EB5695 /* LaunchScreen.storyboard */,
+				0F2F31612449B3B000EB5695 /* Info.plist */,
+			);
+			path = mapbox_polo;
+			sourceTree = "<group>";
+		};
+		0F2F31692449B3B000EB5695 /* mapbox_poloTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F2F316A2449B3B000EB5695 /* mapbox_poloTests.swift */,
+				0F2F316C2449B3B000EB5695 /* Info.plist */,
+			);
+			path = mapbox_poloTests;
+			sourceTree = "<group>";
+		};
+		0F2F31742449B3B000EB5695 /* mapbox_poloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F2F31752449B3B000EB5695 /* mapbox_poloUITests.swift */,
+				0F2F31772449B3B000EB5695 /* Info.plist */,
+			);
+			path = mapbox_poloUITests;
+			sourceTree = "<group>";
+		};
+		EB81B25A46B7DA8C56A2DD1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB5633091CBBD36C2BF55C4 /* Pods_mapbox_polo.framework */,
+				161773933D24EEDD50DBD154 /* Pods_mapbox_polo_mapbox_poloUITests.framework */,
+				C56153A60AD7E9268C742B9E /* Pods_mapbox_poloTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDD4815299BD1AD150664A33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15E4E96509CE0F2293B2C33D /* Pods-mapbox_polo.debug.xcconfig */,
+				6AB738AA183EFB183200D941 /* Pods-mapbox_polo.release.xcconfig */,
+				514BEB5754DE7F4ACBF41AA4 /* Pods-mapbox_polo-mapbox_poloUITests.debug.xcconfig */,
+				CD1B7CE3DA43EB900E016598 /* Pods-mapbox_polo-mapbox_poloUITests.release.xcconfig */,
+				6745295030FAABCC6E1A36D1 /* Pods-mapbox_poloTests.debug.xcconfig */,
+				4470E4C8FEB6E9A627D573AB /* Pods-mapbox_poloTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F2F314F2449B3AE00EB5695 /* mapbox_polo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2F317A2449B3B000EB5695 /* Build configuration list for PBXNativeTarget "mapbox_polo" */;
+			buildPhases = (
+				EE17AC1D99BB602A9A3377AB /* [CP] Check Pods Manifest.lock */,
+				0F2F314C2449B3AE00EB5695 /* Sources */,
+				0F2F314D2449B3AE00EB5695 /* Frameworks */,
+				0F2F314E2449B3AE00EB5695 /* Resources */,
+				79AEA9BFFC72AB4103BA728B /* [CP] Embed Pods Frameworks */,
+				0F57D0EC2449BA5500B677E8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mapbox_polo;
+			productName = mapbox_polo;
+			productReference = 0F2F31502449B3AE00EB5695 /* mapbox_polo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F2F31652449B3B000EB5695 /* mapbox_poloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2F317D2449B3B000EB5695 /* Build configuration list for PBXNativeTarget "mapbox_poloTests" */;
+			buildPhases = (
+				805997A4DE4554690C738098 /* [CP] Check Pods Manifest.lock */,
+				0F2F31622449B3B000EB5695 /* Sources */,
+				0F2F31632449B3B000EB5695 /* Frameworks */,
+				0F2F31642449B3B000EB5695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F2F31682449B3B000EB5695 /* PBXTargetDependency */,
+			);
+			name = mapbox_poloTests;
+			productName = mapbox_poloTests;
+			productReference = 0F2F31662449B3B000EB5695 /* mapbox_poloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F2F31702449B3B000EB5695 /* mapbox_poloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2F31802449B3B000EB5695 /* Build configuration list for PBXNativeTarget "mapbox_poloUITests" */;
+			buildPhases = (
+				F6EAA9E34EBABAE69C5200DF /* [CP] Check Pods Manifest.lock */,
+				0F2F316D2449B3B000EB5695 /* Sources */,
+				0F2F316E2449B3B000EB5695 /* Frameworks */,
+				0F2F316F2449B3B000EB5695 /* Resources */,
+				F50B9FF7A4641954589D8675 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F2F31732449B3B000EB5695 /* PBXTargetDependency */,
+			);
+			name = mapbox_poloUITests;
+			productName = mapbox_poloUITests;
+			productReference = 0F2F31712449B3B000EB5695 /* mapbox_poloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F2F31482449B3AE00EB5695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nael Messaoudene";
+				TargetAttributes = {
+					0F2F314F2449B3AE00EB5695 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0F2F31652449B3B000EB5695 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0F2F314F2449B3AE00EB5695;
+					};
+					0F2F31702449B3B000EB5695 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0F2F314F2449B3AE00EB5695;
+					};
+				};
+			};
+			buildConfigurationList = 0F2F314B2449B3AE00EB5695 /* Build configuration list for PBXProject "mapbox_polo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F2F31472449B3AE00EB5695;
+			productRefGroup = 0F2F31512449B3AE00EB5695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F2F314F2449B3AE00EB5695 /* mapbox_polo */,
+				0F2F31652449B3B000EB5695 /* mapbox_poloTests */,
+				0F2F31702449B3B000EB5695 /* mapbox_poloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F2F314E2449B3AE00EB5695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2F31602449B3B000EB5695 /* LaunchScreen.storyboard in Resources */,
+				0F2F315D2449B3B000EB5695 /* Assets.xcassets in Resources */,
+				0F2F315B2449B3AF00EB5695 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2F31642449B3B000EB5695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2F316F2449B3B000EB5695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79AEA9BFFC72AB4103BA728B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mapbox_polo/Pods-mapbox_polo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mapbox_polo/Pods-mapbox_polo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mapbox_polo/Pods-mapbox_polo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		805997A4DE4554690C738098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mapbox_poloTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE17AC1D99BB602A9A3377AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mapbox_polo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F50B9FF7A4641954589D8675 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mapbox_polo-mapbox_poloUITests/Pods-mapbox_polo-mapbox_poloUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mapbox_polo-mapbox_poloUITests/Pods-mapbox_polo-mapbox_poloUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mapbox_polo-mapbox_poloUITests/Pods-mapbox_polo-mapbox_poloUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EAA9E34EBABAE69C5200DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mapbox_polo-mapbox_poloUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F2F314C2449B3AE00EB5695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2F31582449B3AE00EB5695 /* ViewController.swift in Sources */,
+				0F2F31542449B3AE00EB5695 /* AppDelegate.swift in Sources */,
+				0F2F31562449B3AE00EB5695 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2F31622449B3B000EB5695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2F316B2449B3B000EB5695 /* mapbox_poloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2F316D2449B3B000EB5695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2F31762449B3B000EB5695 /* mapbox_poloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F2F31682449B3B000EB5695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F2F314F2449B3AE00EB5695 /* mapbox_polo */;
+			targetProxy = 0F2F31672449B3B000EB5695 /* PBXContainerItemProxy */;
+		};
+		0F2F31732449B3B000EB5695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F2F314F2449B3AE00EB5695 /* mapbox_polo */;
+			targetProxy = 0F2F31722449B3B000EB5695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F2F31592449B3AF00EB5695 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F2F315A2449B3AF00EB5695 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F2F315E2449B3B000EB5695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F2F315F2449B3B000EB5695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F2F31782449B3B000EB5695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F2F31792449B3B000EB5695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F2F317B2449B3B000EB5695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E4E96509CE0F2293B2C33D /* Pods-mapbox_polo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L62MC7T8XG;
+				INFOPLIST_FILE = mapbox_polo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NaelMessaoudene.mapbox-polo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F2F317C2449B3B000EB5695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB738AA183EFB183200D941 /* Pods-mapbox_polo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L62MC7T8XG;
+				INFOPLIST_FILE = mapbox_polo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NaelMessaoudene.mapbox-polo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F2F317E2449B3B000EB5695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6745295030FAABCC6E1A36D1 /* Pods-mapbox_poloTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L62MC7T8XG;
+				INFOPLIST_FILE = mapbox_poloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NaelMessaoudene.mapbox-poloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapbox_polo.app/mapbox_polo";
+			};
+			name = Debug;
+		};
+		0F2F317F2449B3B000EB5695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4470E4C8FEB6E9A627D573AB /* Pods-mapbox_poloTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L62MC7T8XG;
+				INFOPLIST_FILE = mapbox_poloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NaelMessaoudene.mapbox-poloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapbox_polo.app/mapbox_polo";
+			};
+			name = Release;
+		};
+		0F2F31812449B3B000EB5695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 514BEB5754DE7F4ACBF41AA4 /* Pods-mapbox_polo-mapbox_poloUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L62MC7T8XG;
+				INFOPLIST_FILE = mapbox_poloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NaelMessaoudene.mapbox-poloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mapbox_polo;
+			};
+			name = Debug;
+		};
+		0F2F31822449B3B000EB5695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1B7CE3DA43EB900E016598 /* Pods-mapbox_polo-mapbox_poloUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L62MC7T8XG;
+				INFOPLIST_FILE = mapbox_poloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NaelMessaoudene.mapbox-poloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mapbox_polo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F2F314B2449B3AE00EB5695 /* Build configuration list for PBXProject "mapbox_polo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2F31782449B3B000EB5695 /* Debug */,
+				0F2F31792449B3B000EB5695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F2F317A2449B3B000EB5695 /* Build configuration list for PBXNativeTarget "mapbox_polo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2F317B2449B3B000EB5695 /* Debug */,
+				0F2F317C2449B3B000EB5695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F2F317D2449B3B000EB5695 /* Build configuration list for PBXNativeTarget "mapbox_poloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2F317E2449B3B000EB5695 /* Debug */,
+				0F2F317F2449B3B000EB5695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F2F31802449B3B000EB5695 /* Build configuration list for PBXNativeTarget "mapbox_poloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2F31812449B3B000EB5695 /* Debug */,
+				0F2F31822449B3B000EB5695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F2F31482449B3AE00EB5695 /* Project object */;
+}
